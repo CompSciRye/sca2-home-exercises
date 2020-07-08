@@ -3,5 +3,8 @@
 // HINT: recursion may help here
 
 const hasFalsyValue = obj => {
-  return false;
+  return !obj;
 };
+
+arr = [0, 1, true, false, 57, null, "hello", NaN, ""]
+console.log(arr.map(x => hasFalsyValue(x)))

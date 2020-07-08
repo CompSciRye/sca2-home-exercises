@@ -1,3 +1,16 @@
 body {
-  background-color: #dfdfdf;
+  background-color: #f15129;
+}
+#messingAround {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.title {
+  font-family: "Impact, Charcoal, sans-serif";
+  color: #e49400;
+  text-decoration-color: #000000;
+}
+#top {
+  display: flex;
+  align-self: center;
 }
